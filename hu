@@ -1,0 +1,8 @@
+app/
+  _layout.tsx
+  (tabs)/
+    _layout.tsx
+    index.tsx      // Home / Discover
+    library.tsx
+    search.tsx
+  player.tsx
