@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Naija Music",
+    "slug": "naija-music",
+    "version": "0.1.0",
+    "scheme": "naijamusic",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0F",
+    "plugins": ["expo-router", "expo-audio"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.naijamusic.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "package": "com.naijamusic.app"
+    }
+  }
+}
